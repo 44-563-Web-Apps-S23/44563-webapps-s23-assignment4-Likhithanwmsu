@@ -71,3 +71,38 @@ tr:nth-child(even) {
     text-shadow: rgb(148, 148, 101);
     border: darkorange;
 }
+
+ul.navbar-horizontal {
+    display: flow-root;
+    padding: 90%;
+    color: chocolate;
+}
+
+ul.navbar-horizontal {
+    /* remove these */
+    list-style-type: square;
+    margin: 20px;;
+    padding: 15px;
+}
+
+ul.navbar-horizontal li {
+    float: inline;
+    /* line up horizontally */
+    color: brown;
+    background-color: antiquewhite;
+}
+
+ul.navbar-horizontal a {
+    display:block;
+    padding: 7px;
+}
+
+/* on hover change the link color*/
+ul.navbar-horizontal a:hover {
+    background-color: bisque;
+    color: blue;
+}
+
+.image{
+    width: 30%;
+}
