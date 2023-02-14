@@ -23,3 +23,37 @@
 .REVENUE{
     color: deeppink;
 }
+
+table,
+th,
+td {
+    border: 1.5px solid;
+    text-align: center;
+    border-radius: 1.5px;
+    width: 15%;
+
+}
+
+table {
+    padding: 7px;
+    margin: 25px;
+    width: 55%;
+}
+
+th {
+    color: darkgreen;
+    font-weight: bolder;
+    height: 80px;
+
+}
+
+td {
+    color: fuchsia;
+    border: 1.5px solid;
+    height: 40px;
+
+}
+
+tr:nth-child(even) {
+    background-color: aliceblue;
+}
