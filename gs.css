@@ -1,0 +1,25 @@
+.speech{
+    font-family:"Times New Roman", Times, serif;
+    font-size: 26;
+    color:black
+}
+
+.direction{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28;
+    color: black;
+    background-color: aqua;
+}
+
+.direction:hover{
+    color: blue;
+    background-color: burlywood;
+}
+
+.LUKE{
+    color: chartreuse;
+}
+
+.REVENUE{
+    color: deeppink;
+}
