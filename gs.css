@@ -44,6 +44,9 @@ th {
     color: darkgreen;
     font-weight: bolder;
     height: 80px;
+    text-align: center;
+    background-color:gold;
+    border: 1.5px solid;
 
 }
 
@@ -51,6 +54,9 @@ td {
     color: fuchsia;
     border: 1.5px solid;
     height: 40px;
+    text-align: center;
+    background-color: chartreuse;
+    font-weight: bolder;
 
 }
 
@@ -59,40 +65,42 @@ tr:nth-child(even) {
 }
 
 .LUKE:hover {
+    background-color: beige;
     color: darkred;
     text-shadow: 5px 3px 5px blue;
     border: darkkhaki;
 }
 
-.REVENUE:hover {    
+.REVENUE:hover {
+    background-color: azure;    
     color: fuchsia;
     text-shadow: 4px 3px 4px green;
     border: darkorange;
 }
 
 ul.navbar-horizontal {
-    display: flow-root;
+    display:flex;
     padding: 90%;
     color: chocolate;
 }
 
 ul.navbar-horizontal {
     /* remove these */
-    list-style-type: square;
+    list-style-type:none;
     margin: 20px;;
     padding: 15px;
 }
 
 ul.navbar-horizontal li {
-    float: inline;
+    float:inline;
     /* line up horizontally */
     color: brown;
     background-color: antiquewhite;
 }
 
 ul.navbar-horizontal a {
-    display:block;
-    padding: 7px;
+    display:inline;
+    padding: 10px;
 }
 
 /* on hover change the link color*/
