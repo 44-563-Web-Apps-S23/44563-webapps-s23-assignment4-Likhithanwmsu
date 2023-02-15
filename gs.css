@@ -59,16 +59,14 @@ tr:nth-child(even) {
 }
 
 .LUKE:hover {
-    background: blanchedalmond;
     color: darkred;
-    text-shadow: rgb(91, 91, 156);
+    text-shadow: 5px 3px 5px blue;
     border: darkkhaki;
 }
 
-.REVENUE:hover {
-    background: ghostwhite;
+.REVENUE:hover {    
     color: fuchsia;
-    text-shadow: rgb(148, 148, 101);
+    text-shadow: 4px 3px 4px green;
     border: darkorange;
 }
 
